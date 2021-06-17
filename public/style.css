@@ -382,11 +382,10 @@ body {
   left: 0;
   background: #e9e9e9;
   height: auto;
-  overflow: noscroll;
   width: 80vw;
   overflow: auto;
   margin-left: 10vw;
-  margin-bottom: 500px;
+  margin-bottom: 200px;
   border: 1px solid black;
   z-index: 15;
   display: -webkit-box;
@@ -434,7 +433,6 @@ body {
 .AppContainer .project-info-wrapper {
   border: 1px solid black;
   height: 150px;
-  max-height: inherit;
   width: 10%;
   min-width: 220px;
   margin-top: 10px;
@@ -482,5 +480,15 @@ body {
 
 .AppContainer .project-info-wrapper a:hover {
   font-weight: bold;
+}
+
+.AppContainer .project-card-container {
+  -webkit-transition: all 750ms ease-out;
+  transition: all 750ms ease-out;
+}
+
+.AppContainer .project-card-container:hover {
+  -webkit-transform: scale(1.025);
+          transform: scale(1.025);
 }
 /*# sourceMappingURL=style.css.map */

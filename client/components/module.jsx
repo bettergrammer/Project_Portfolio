@@ -13,10 +13,12 @@ export default function Module({ project, removeModule }) {
         'roomShare2.0': <RoomShareGiphy />
     }
     return (
-        <div className="module">
-            <div className="close-module" onClick={removeModule}>x</div>
-            {giphys[project.name]}
-            <ProjectInfo project={project} />
+        <div className="module-wrapper">
+            <div className="module">
+                <div className="close-module" onClick={removeModule}>x</div>
+                {giphys[project.name]}
+                <ProjectInfo project={project} />
+            </div>
         </div>
     )
 };

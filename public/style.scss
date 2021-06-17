@@ -294,11 +294,10 @@ body {
         left: 0;
         background: rgb(233, 233, 233);
         height: auto;
-        overflow: noscroll;
         width: 80vw;
         overflow: auto;
         margin-left: 10vw;
-        margin-bottom: 500px;
+        margin-bottom: 200px;
         border: 1px solid black;
         z-index: 15;
         display: flex;
@@ -327,7 +326,6 @@ body {
     .project-info-wrapper {
         border: 1px solid black;
         height: 150px;
-        max-height: inherit;
         width: 10%;
         min-width: 220px;
         margin-top: 10px;
@@ -359,5 +357,11 @@ body {
         a:hover {
             font-weight: bold;
         }
+    }
+    .project-card-container{ 
+        transition: all 750ms ease-out;
+    }
+    .project-card-container:hover {
+        transform: scale(1.025);
     }
 }
