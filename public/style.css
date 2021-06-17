@@ -347,6 +347,7 @@ body {
 
 .AppContainer .giphy-div {
   position: relative;
+  height: 90%;
   width: 65%;
   padding-bottom: 45%;
   display: -webkit-box;
@@ -355,6 +356,9 @@ body {
   -ms-flex-item-align: start;
       align-self: flex-start;
   margin-bottom: 50px;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
+  z-index: 19;
 }
 
 .AppContainer .giphy-embed {
@@ -374,6 +378,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-negative: 6;
+      flex-shrink: 6;
 }
 
 .AppContainer .module {
@@ -387,7 +393,7 @@ body {
   margin-left: 10vw;
   margin-bottom: 200px;
   border: 1px solid black;
-  z-index: 15;
+  z-index: 20;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -416,8 +422,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   border: 1px solid black;
-  height: 15px;
-  width: 15px;
+  height: 25px;
+  width: 25px;
   padding-bottom: 3px;
   margin-bottom: 5px;
   z-index: 16;
@@ -433,12 +439,14 @@ body {
 .AppContainer .project-info-wrapper {
   border: 1px solid black;
   height: 150px;
-  width: 10%;
+  width: 5%;
   min-width: 220px;
   margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
@@ -452,6 +460,7 @@ body {
   position: relative;
   margin-top: -425px;
   border-radius: 15px;
+  z-index: 15;
 }
 
 .AppContainer .project-info-wrapper .project-name {
@@ -465,7 +474,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px;
-  width: 100%;
+  width: 50%;
   font-size: 35px;
   font-weight: bold;
   border-radius: 20px;

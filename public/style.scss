@@ -274,11 +274,14 @@ body {
     }
     .giphy-div {
         position: relative;
+        height: 90%;
         width: 65%;
         padding-bottom: 45%;
         display: flex;
         align-self: flex-start;
         margin-bottom: 50px;
+        flex-shrink: 3;
+        z-index: 19;
     }
     .giphy-embed {
         position: absolute;
@@ -287,6 +290,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-shrink: 6;
     }
     .module {
         position: absolute;
@@ -299,7 +303,7 @@ body {
         margin-left: 10vw;
         margin-bottom: 200px;
         border: 1px solid black;
-        z-index: 15;
+        z-index: 20;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -312,8 +316,8 @@ body {
         justify-content: center;
         align-items: center;
         border: 1px solid black;
-        height: 15px;
-        width: 15px;
+        height: 25px;
+        width: 25px;
         padding-bottom: 3px;
         margin-bottom: 5px;
         z-index: 16;
@@ -326,10 +330,11 @@ body {
     .project-info-wrapper {
         border: 1px solid black;
         height: 150px;
-        width: 10%;
+        width: 5%;
         min-width: 220px;
         margin-top: 10px;
         display: flex;
+        flex-shrink: 3;
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-start;
@@ -338,12 +343,13 @@ body {
         position: relative;
         margin-top: -425px;
         border-radius: 15px;
+        z-index: 15;
         .project-name {
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 10px;
-            width: 100%;
+            width: 50%;
             font-size: 35px;
             font-weight: bold;
             border-radius: 20px;
