@@ -1,0 +1,363 @@
+body {
+    background: lightblue;
+}
+
+.AppContainer {
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri';
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95vw;
+    .cus-div {
+        width: 100%;
+        position: relative;
+    }
+    #skew1 {
+        background: url('./images/heroBackground.jpg');
+        background-size: cover;
+        background-position: center center;
+        z-index: 10;
+        height: 325px;
+    }
+    #skew2 {
+        padding-top: 150px;
+        background: #c2c2c2;
+        z-index: 9;
+        height: 600px;
+    }
+    #skew3 {
+        background: url('./images/shapesBackground.jpg');
+        background-size: cover;
+        background-position: 0px -500px;
+        z-index: 8;
+        height: 550px;
+    }
+    #skew4 {
+        background: #c2c2c2;
+        background-size: cover;
+        background-position: center center;
+        z-index: 7;
+        height: 770px;
+    }
+    #skew5 {
+        background: url('./images/patternsBackground.jpg');
+        background-size: cover;
+        background-position: center center;
+        z-index: 6;
+        height: 325px;
+    }
+    .cus-div:after {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+        z-index: -1;
+        bottom: 0;
+        content: '';
+    }
+    #skew1:after,
+    #skew2:after,
+    #skew4:after {
+        transform-origin: left bottom;
+        transform: skewY(3deg);
+    }
+    #skew3:after {
+        transform-origin: right bottom;
+        transform: skewY(-3deg);
+    }
+    .content {
+        font-weight: bold;
+        text-align: center;
+        padding: 100px 50px;
+        overflow: hidden;
+        display: block;
+    }
+    .j-logo {
+        background: url('./images/j-transparent.png');
+        position: relative;
+        top: -80px;
+        left: -5%;
+        height: 10vh;
+        width: 10%;
+        background-size: auto;
+        background-position: center center;
+        background-size: 40px;
+        background-repeat: no-repeat;
+    }
+    .javascript-logo {
+        background: url('./images/javascript-logo.png');
+        position: relative;
+        top: 0;
+        left: 200px;
+        height: 200px;
+        width: 15%;
+        background-size: auto;
+        background-position: center center;
+        background-size: 150px;
+        background-repeat: no-repeat;
+    }
+    .react-logo {
+        background: url('./images/react-logo.png');
+        position: relative;
+        bottom: 205px;
+        left: 430px;
+        height: 200px;
+        width: 15%;
+        background-size: auto;
+        background-position: center center;
+        background-size: 350px;
+        background-repeat: no-repeat;
+    }
+    .node-logo {
+        background: url('./images/node-logo.png');
+        position: relative;
+        bottom: 400px;
+        left: 680px;
+        height: 200px;
+        width: 15%;
+        background-size: auto;
+        background-position: center center;
+        background-size: 180px;
+        background-repeat: no-repeat;
+    }
+    .express-logo {
+        background: url('./images/express-logo.png');
+        position: relative;
+        bottom: 600px;
+        left: 920px;
+        height: 200px;
+        width: 15%;
+        background-size: auto;
+        background-position: center center;
+        background-size: 160px;
+        background-repeat: no-repeat;
+    }
+    .jason-pic {
+        background: url('./images/jason.jpg');
+        position: absolute;
+        top: 2px;
+        left: 1007.5%;
+        height: 90px;
+        width: 75px;
+        background-position: -6px -3px;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        border-radius: 100px;
+    }
+    .content h2 {
+        margin: 0;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+    }
+    .content h3 {
+        margin: 25px;
+        margin-bottom: 40px;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 35px;
+    }
+    .content a {
+        background: lightblue;
+        border-radius: 5px;
+        height: 20px;
+        width: 20px;
+        padding: 10px 20px;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .content a:hover {
+        background: rgb(153, 191, 204);
+    }
+    .content p {
+        padding: 0 300px;
+        line-height: 1.5;
+        color: #000;
+        font-size: 20px;
+    }
+    #skew2 p {
+        color: #fff;
+        margin-bottom: 35px;
+    }
+    #skew2 {
+        margin-top: -20px;
+    }
+    #skew3 h3 {
+        padding-left: 210px;
+        font-size: 30px;
+        margin-top: -10px;
+    }
+    #skew3 p {
+        margin: 5px 0 0 160px;
+        color: #fff;
+        width: 50%;
+        text-shadow: 1px 1px 15px black;
+    }
+    #skew1 h2 {
+        margin-top: -25px;
+    }
+    #skew1 h3 {
+        text-shadow: 1px 1px 0 #fff;
+    }
+    #skew4 h3 {
+        margin-top: -10px;
+    }
+    .projects-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .project-card-container {
+        border: 1px solid black;
+        background: white;
+        height: 500px;
+        max-height: 500px;
+        width: 20vw;
+        min-width: 250px;
+        display: inline-flex;
+        flex-direction: column;
+        overflow: noscroll;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        box-shadow: 5px 5px 0 black;
+        padding-bottom: 20px;
+        margin: 0 20px;
+        h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            color: black;
+            font-size: 20px;
+            align-self: center;
+            background:burlywood;
+            z-index: 6;
+            height: 80px;
+        }
+        p {
+            padding: 7px;
+            position: relative;
+            left: 0px;
+            font-size: 15px;
+        }
+        li {
+            position: relative;
+            left: -22px;
+            top: -25px;
+            list-style: none;
+            padding: 5px;
+        }
+        button {
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            bottom: -20px;
+            align-self: center;
+            min-height: 9%;
+            min-width: 45%;
+            display: flex;
+            font-size: 20px;
+            box-shadow: 2.5px 2.5px 0 black;
+            border-radius: 15px;
+            left: 0;
+            top: 100px;
+        }
+        button:hover {
+            background: lightgrey;
+        }
+        .project-card-tech-used {
+            height: 90px;
+        }
+    }
+    .giphy-div {
+        position: relative;
+        width: 65%;
+        padding-bottom: 45%;
+        display: flex;
+        align-self: flex-start;
+        margin-bottom: 50px;
+    }
+    .giphy-embed {
+        position: absolute;
+        height: fill;
+        width: fill;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .module {
+        position: absolute;
+        top: 1770px;
+        left: 0;
+        background: rgb(233, 233, 233);
+        height: auto;
+        overflow: noscroll;
+        width: 80vw;
+        overflow: auto;
+        margin-left: 10vw;
+        margin-bottom: 500px;
+        border: 1px solid black;
+        z-index: 15;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-end;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px black;
+    }
+    .close-module {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        height: 15px;
+        width: 15px;
+        padding-bottom: 3px;
+        margin-bottom: 5px;
+        z-index: 16;
+        box-shadow: 1px 1px 2px black;
+    }
+    .close-module:hover {
+        background: rgb(211, 211, 211);
+        cursor: default;
+    }
+    .project-info-wrapper {
+        border: 1px solid black;
+        height: 150px;
+        max-height: inherit;
+        width: 10%;
+        min-width: 220px;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 100px 25px;
+        background: rgb(241, 202, 151);
+        position: relative;
+        margin-top: -425px;
+        border-radius: 15px;
+        .project-name {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            width: 100%;
+            font-size: 35px;
+            font-weight: bold;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 5px;
+            margin-top: -50px;
+        }
+        a {
+            font-size: 35px;    
+        }
+        a:hover {
+            font-weight: bold;
+        }
+    }
+}

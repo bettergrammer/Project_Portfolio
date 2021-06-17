@@ -1,0 +1,486 @@
+body {
+  background: lightblue;
+}
+
+.AppContainer {
+  margin: 0;
+  padding: 0;
+  font-family: 'Calibri';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 95vw;
+}
+
+.AppContainer .cus-div {
+  width: 100%;
+  position: relative;
+}
+
+.AppContainer #skew1 {
+  background: url("./images/heroBackground.jpg");
+  background-size: cover;
+  background-position: center center;
+  z-index: 10;
+  height: 325px;
+}
+
+.AppContainer #skew2 {
+  padding-top: 150px;
+  background: #c2c2c2;
+  z-index: 9;
+  height: 600px;
+}
+
+.AppContainer #skew3 {
+  background: url("./images/shapesBackground.jpg");
+  background-size: cover;
+  background-position: 0px -500px;
+  z-index: 8;
+  height: 550px;
+}
+
+.AppContainer #skew4 {
+  background: #c2c2c2;
+  background-size: cover;
+  background-position: center center;
+  z-index: 7;
+  height: 770px;
+}
+
+.AppContainer #skew5 {
+  background: url("./images/patternsBackground.jpg");
+  background-size: cover;
+  background-position: center center;
+  z-index: 6;
+  height: 325px;
+}
+
+.AppContainer .cus-div:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  z-index: -1;
+  bottom: 0;
+  content: '';
+}
+
+.AppContainer #skew1:after,
+.AppContainer #skew2:after,
+.AppContainer #skew4:after {
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+  -webkit-transform: skewY(3deg);
+          transform: skewY(3deg);
+}
+
+.AppContainer #skew3:after {
+  -webkit-transform-origin: right bottom;
+          transform-origin: right bottom;
+  -webkit-transform: skewY(-3deg);
+          transform: skewY(-3deg);
+}
+
+.AppContainer .content {
+  font-weight: bold;
+  text-align: center;
+  padding: 100px 50px;
+  overflow: hidden;
+  display: block;
+}
+
+.AppContainer .j-logo {
+  background: url("./images/j-transparent.png");
+  position: relative;
+  top: -80px;
+  left: -5%;
+  height: 10vh;
+  width: 10%;
+  background-size: auto;
+  background-position: center center;
+  background-size: 40px;
+  background-repeat: no-repeat;
+}
+
+.AppContainer .javascript-logo {
+  background: url("./images/javascript-logo.png");
+  position: relative;
+  top: 0;
+  left: 200px;
+  height: 200px;
+  width: 15%;
+  background-size: auto;
+  background-position: center center;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
+.AppContainer .react-logo {
+  background: url("./images/react-logo.png");
+  position: relative;
+  bottom: 205px;
+  left: 430px;
+  height: 200px;
+  width: 15%;
+  background-size: auto;
+  background-position: center center;
+  background-size: 350px;
+  background-repeat: no-repeat;
+}
+
+.AppContainer .node-logo {
+  background: url("./images/node-logo.png");
+  position: relative;
+  bottom: 400px;
+  left: 680px;
+  height: 200px;
+  width: 15%;
+  background-size: auto;
+  background-position: center center;
+  background-size: 180px;
+  background-repeat: no-repeat;
+}
+
+.AppContainer .express-logo {
+  background: url("./images/express-logo.png");
+  position: relative;
+  bottom: 600px;
+  left: 920px;
+  height: 200px;
+  width: 15%;
+  background-size: auto;
+  background-position: center center;
+  background-size: 160px;
+  background-repeat: no-repeat;
+}
+
+.AppContainer .jason-pic {
+  background: url("./images/jason.jpg");
+  position: absolute;
+  top: 2px;
+  left: 1007.5%;
+  height: 90px;
+  width: 75px;
+  background-position: -6px -3px;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+}
+
+.AppContainer .content h2 {
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.AppContainer .content h3 {
+  margin: 25px;
+  margin-bottom: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+}
+
+.AppContainer .content a {
+  background: lightblue;
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+  padding: 10px 20px;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.AppContainer .content a:hover {
+  background: #99bfcc;
+}
+
+.AppContainer .content p {
+  padding: 0 300px;
+  line-height: 1.5;
+  color: #000;
+  font-size: 20px;
+}
+
+.AppContainer #skew2 p {
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.AppContainer #skew2 {
+  margin-top: -20px;
+}
+
+.AppContainer #skew3 h3 {
+  padding-left: 210px;
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+.AppContainer #skew3 p {
+  margin: 5px 0 0 160px;
+  color: #fff;
+  width: 50%;
+  text-shadow: 1px 1px 15px black;
+}
+
+.AppContainer #skew1 h2 {
+  margin-top: -25px;
+}
+
+.AppContainer #skew1 h3 {
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.AppContainer #skew4 h3 {
+  margin-top: -10px;
+}
+
+.AppContainer .projects-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.AppContainer .project-card-container {
+  border: 1px solid black;
+  background: white;
+  height: 500px;
+  max-height: 500px;
+  width: 20vw;
+  min-width: 250px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: noscroll;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-box-shadow: 5px 5px 0 black;
+          box-shadow: 5px 5px 0 black;
+  padding-bottom: 20px;
+  margin: 0 20px;
+}
+
+.AppContainer .project-card-container h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  color: black;
+  font-size: 20px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background: burlywood;
+  z-index: 6;
+  height: 80px;
+}
+
+.AppContainer .project-card-container p {
+  padding: 7px;
+  position: relative;
+  left: 0px;
+  font-size: 15px;
+}
+
+.AppContainer .project-card-container li {
+  position: relative;
+  left: -22px;
+  top: -25px;
+  list-style: none;
+  padding: 5px;
+}
+
+.AppContainer .project-card-container button {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: -20px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  min-height: 9%;
+  min-width: 45%;
+  display: flex;
+  font-size: 20px;
+  -webkit-box-shadow: 2.5px 2.5px 0 black;
+          box-shadow: 2.5px 2.5px 0 black;
+  border-radius: 15px;
+  left: 0;
+  top: 100px;
+}
+
+.AppContainer .project-card-container button:hover {
+  background: lightgrey;
+}
+
+.AppContainer .project-card-container .project-card-tech-used {
+  height: 90px;
+}
+
+.AppContainer .giphy-div {
+  position: relative;
+  width: 65%;
+  padding-bottom: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-bottom: 50px;
+}
+
+.AppContainer .giphy-embed {
+  position: absolute;
+  height: -webkit-fill-available;
+  height: -moz-available;
+  height: fill;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.AppContainer .module {
+  position: absolute;
+  top: 1770px;
+  left: 0;
+  background: #e9e9e9;
+  height: auto;
+  overflow: noscroll;
+  width: 80vw;
+  overflow: auto;
+  margin-left: 10vw;
+  margin-bottom: 500px;
+  border: 1px solid black;
+  z-index: 15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+}
+
+.AppContainer .close-module {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+  z-index: 16;
+  -webkit-box-shadow: 1px 1px 2px black;
+          box-shadow: 1px 1px 2px black;
+}
+
+.AppContainer .close-module:hover {
+  background: lightgray;
+  cursor: default;
+}
+
+.AppContainer .project-info-wrapper {
+  border: 1px solid black;
+  height: 150px;
+  max-height: inherit;
+  width: 10%;
+  min-width: 220px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 100px 25px;
+  background: #f1ca97;
+  position: relative;
+  margin-top: -425px;
+  border-radius: 15px;
+}
+
+.AppContainer .project-info-wrapper .project-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  width: 100%;
+  font-size: 35px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 5px;
+  margin-top: -50px;
+}
+
+.AppContainer .project-info-wrapper a {
+  font-size: 35px;
+}
+
+.AppContainer .project-info-wrapper a:hover {
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
