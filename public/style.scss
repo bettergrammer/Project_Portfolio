@@ -22,17 +22,17 @@ body {
         height: 325px;
     }
     #skew2 {
-        padding-top: 150px;
+        padding-top: 50px;
         background: #c2c2c2;
         z-index: 9;
-        height: 600px;
+        height: 800px;
     }
     #skew3 {
         background: url('./images/shapesBackground.jpg');
         background-size: cover;
         background-position: 0px -500px;
         z-index: 8;
-        height: 550px;
+        height: 700px;
     }
     #skew4 {
         background: #c2c2c2;
@@ -46,7 +46,7 @@ body {
         background-size: cover;
         background-position: center center;
         z-index: 6;
-        height: 325px;
+        height: 225px;
     }
     .cus-div:after {
         position: absolute;
@@ -86,11 +86,22 @@ body {
         background-size: 40px;
         background-repeat: no-repeat;
     }
+    .html5-logo {
+        background: url('./images/html5-logo.png');
+        position: relative;
+        left: 300px;
+        height: 200px;
+        width: 15%;
+        background-size: auto;
+        background-position: center center;
+        background-size: 180px;
+        background-repeat: no-repeat;
+    }
     .javascript-logo {
         background: url('./images/javascript-logo.png');
         position: relative;
-        top: 0;
-        left: 200px;
+        bottom: 420px;
+        left: 42.5%;
         height: 200px;
         width: 15%;
         background-size: auto;
@@ -98,11 +109,23 @@ body {
         background-size: 150px;
         background-repeat: no-repeat;
     }
+    .css3-logo {
+        background: url('./images/css3-logo.svg');
+        position: absolute;
+        right: 350px;
+        bottom: 420px;
+        height: 350px;
+        width: 15%;
+        background-size: auto;
+        background-position: center center;
+        background-size: 210px;
+        background-repeat: no-repeat;
+    }
     .react-logo {
         background: url('./images/react-logo.png');
         position: relative;
         bottom: 205px;
-        left: 430px;
+        left: 15%;
         height: 200px;
         width: 15%;
         background-size: auto;
@@ -114,7 +137,7 @@ body {
         background: url('./images/node-logo.png');
         position: relative;
         bottom: 400px;
-        left: 680px;
+        left: 32%;
         height: 200px;
         width: 15%;
         background-size: auto;
@@ -126,12 +149,24 @@ body {
         background: url('./images/express-logo.png');
         position: relative;
         bottom: 600px;
-        left: 920px;
+        left: 50%;
         height: 200px;
         width: 15%;
         background-size: auto;
         background-position: center center;
         background-size: 160px;
+        background-repeat: no-repeat;
+    }
+    .sass-logo {
+        background: url('./images/sass-logo.svg');
+        position: absolute;
+        right: 18%;
+        bottom: 0;
+        height: 350px;
+        width: 18%;
+        background-size: auto;
+        background-position: center center;
+        background-size: 210px;
         background-repeat: no-repeat;
     }
     .jason-pic {
@@ -183,7 +218,7 @@ body {
         margin-bottom: 35px;
     }
     #skew2 {
-        margin-top: -20px;
+        margin-top: -40px;
     }
     #skew3 h3 {
         padding-left: 210px;
@@ -194,16 +229,36 @@ body {
         margin: 5px 0 0 160px;
         color: #fff;
         width: 50%;
-        text-shadow: 1px 1px 15px black;
+        text-shadow: 1px 1px 3px black;
+    }
+    #skew3 h2 {
+        margin: 17% 0 0 200px;
+        text-shadow: 1px 1px 1px black;
+        font-size: 50px
+    }
+    #skew3 ul {
+        margin: 15px 0 0 100px;
+        list-style: none;
+        font-size: 50px;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+    #skew3 li {
+        padding-bottom: 20px;
     }
     #skew1 h2 {
-        margin-top: -25px;
+        margin-top: -90px;
     }
     #skew1 h3 {
         text-shadow: 1px 1px 0 #fff;
     }
     #skew4 h3 {
         margin-top: -10px;
+    }
+    #skew5 p {
+        position: absolute;
+        bottom: -5px;
+        right: 5px;
     }
     .projects-container {
         display: flex;
@@ -313,8 +368,10 @@ body {
         flex-wrap: wrap;
         flex-direction: column;
         align-items: flex-end;
+        justify-content: center;
         border-radius: 10px;
         box-shadow: 5px 5px 5px black;
+        background: rgb(241, 202, 151);
     }
     .close-module {
         display: flex;
@@ -327,13 +384,14 @@ body {
         margin-bottom: 5px;
         z-index: 16;
         box-shadow: 1px 1px 2px black;
+        background: rgb(241, 202, 151);
     }
     .close-module:hover {
-        background: rgb(211, 211, 211);
+        background: rgb(253, 214, 163);
         cursor: default;
     }
     .project-info-wrapper {
-        border: 1px solid black;
+        border: 1px solid burlywood;
         height: 150px;
         width: 5%;
         min-width: 220px;
@@ -342,11 +400,10 @@ body {
         flex-shrink: 3;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         padding: 100px 25px;
         background: rgb(241, 202, 151);
-        position: relative;
-        margin-top: -425px;
+        position: absolute;
         border-radius: 15px;
         z-index: 15;
         .project-name {
@@ -370,6 +427,12 @@ body {
         }
     }
     #card2 ul {
+        margin-top: 50px;
+    }
+    #card3 ul {
+        margin-top: 40px;
+    }
+    #card4 ul {
         margin-top: 50px;
     }
 }
