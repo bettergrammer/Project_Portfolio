@@ -224,6 +224,7 @@ body {
         box-shadow: 5px 5px 0 black;
         padding-bottom: 20px;
         margin: 0 20px;
+        transition: all 750ms ease-out;
         h2 {
             display: flex;
             align-items: center;
@@ -248,6 +249,7 @@ body {
             top: -25px;
             list-style: none;
             padding: 5px;
+            background: rgb(245, 245, 245);
         }
         button {
             position: relative;
@@ -263,7 +265,7 @@ body {
             box-shadow: 2.5px 2.5px 0 black;
             border-radius: 15px;
             left: 0;
-            top: 100px;
+            top: 120px;
         }
         button:hover {
             background: lightgrey;
@@ -271,6 +273,9 @@ body {
         .project-card-tech-used {
             height: 90px;
         }
+    }
+    .project-card-container:hover {
+        transform: scale(1.025);
     }
     .giphy-div {
         position: relative;
@@ -364,10 +369,7 @@ body {
             font-weight: bold;
         }
     }
-    .project-card-container{ 
-        transition: all 750ms ease-out;
-    }
-    .project-card-container:hover {
-        transform: scale(1.025);
+    #card2 ul {
+        margin-top: 50px;
     }
 }

@@ -7,13 +7,13 @@ export default function Projects({ showModule }) {
             <ProjectCard id={"card1"}
             title={"Reset"}
             description={`Full-stack, dynamic, single-page React app that allows users to effortlessly set, track, and achieve their meditation goals through an intuitive front-end UI`}
-            techUsed={['React', 'Redux', 'HTML|CSS', 'SCSS', 'NODE.JS|EXPRESS', 'MYSQL']}
+            techUsed={['HTML|CSS', 'React', 'Redux', 'SCSS', 'Node.js|Express', 'MySQL']}
             showModule={showModule}
             />
             <ProjectCard id={"card2"}
             title={"Cryptocurrency Charting Tool"}
-            description={"Sample Description of what this project is and the highlights of what I did. Extra text to see how it will look in the card."}
-            techUsed={['React', 'Redux', 'HTML|CSS', 'SCSS']}
+            description={`Single-page application for viewing customized charts of Bitcoin historical price data by date range.`}
+            techUsed={['HTML|CSS', 'React', 'SCSS', 'Node.js|Express']}
             showModule={showModule}
             />
             <ProjectCard id={"card3"}

@@ -276,6 +276,8 @@ body {
           box-shadow: 5px 5px 0 black;
   padding-bottom: 20px;
   margin: 0 20px;
+  -webkit-transition: all 750ms ease-out;
+  transition: all 750ms ease-out;
 }
 
 .AppContainer .project-card-container h2 {
@@ -311,6 +313,7 @@ body {
   top: -25px;
   list-style: none;
   padding: 5px;
+  background: whitesmoke;
 }
 
 .AppContainer .project-card-container button {
@@ -334,7 +337,7 @@ body {
           box-shadow: 2.5px 2.5px 0 black;
   border-radius: 15px;
   left: 0;
-  top: 100px;
+  top: 120px;
 }
 
 .AppContainer .project-card-container button:hover {
@@ -343,6 +346,11 @@ body {
 
 .AppContainer .project-card-container .project-card-tech-used {
   height: 90px;
+}
+
+.AppContainer .project-card-container:hover {
+  -webkit-transform: scale(1.025);
+          transform: scale(1.025);
 }
 
 .AppContainer .giphy-div {
@@ -491,13 +499,7 @@ body {
   font-weight: bold;
 }
 
-.AppContainer .project-card-container {
-  -webkit-transition: all 750ms ease-out;
-  transition: all 750ms ease-out;
-}
-
-.AppContainer .project-card-container:hover {
-  -webkit-transform: scale(1.025);
-          transform: scale(1.025);
+.AppContainer #card2 ul {
+  margin-top: 50px;
 }
 /*# sourceMappingURL=style.css.map */
