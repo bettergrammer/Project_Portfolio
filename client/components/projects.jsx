@@ -16,12 +16,12 @@ export default function Projects({ showModule }) {
             techUsed={['HTML|CSS', 'React', 'SCSS', 'Node.js|Express']}
             showModule={showModule}
             />
-            <ProjectCard id={"card3"}
+            {/* <ProjectCard id={"card3"}
             title={"Roomshare 2.0"}
             description={"Front end ‘Photos’ microservice showing product photos in grid and carousel style."}
             techUsed={['HTML|CSS', 'React', 'SCSS', 'Node.js|Express', 'MySQL']}
             showModule={showModule}
-            />
+            /> */}
             <ProjectCard id={"card4"}
             title={"The Success Factory"}
             description={"Front end single-page application to help users adopt succesful habits and rituals."}
