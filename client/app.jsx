@@ -18,7 +18,7 @@ const sources = {
     'reset': 'https://github.com/bettergrammer/rpt19-mvp-starter',
     'theSuccessFactory': 'https://github.com/bettergrammer/TheSuccessFactory',
     'cryptoCurrencyChartingTool': 'https://github.com/bettergrammer/BCC',
-    'roomShare2.0': 'https://github.com/bettergrammer/rpt19-front-end-capstone'
+    'roomShare2.0': ''
 }
 
 function App() {
