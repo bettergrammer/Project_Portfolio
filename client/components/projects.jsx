@@ -29,5 +29,5 @@ export default function Projects({ showModule }) {
             showModule={showModule}
             />
         </div>
-    )
+    );
 };
