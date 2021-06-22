@@ -334,7 +334,7 @@ body {
     }
     .giphy-div {
         position: relative;
-        height: 90%;
+        height: 10%;
         width: 65%;
         display: flex;
         align-items: flex-start;
@@ -440,10 +440,5 @@ body {
         padding: 5px;
         height: 100px;
         width: 100px;
-    }
-    a {
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
     }
 }
