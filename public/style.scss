@@ -336,7 +336,7 @@ body {
         position: relative;
         height: 90%;
         width: 65%;
-        padding-bottom: 45%;
+        // padding-bottom: 45%;
         display: flex;
         align-items: flex-start;
         align-self: flex-start;
@@ -352,7 +352,7 @@ body {
         justify-content: center;
         align-items: center;
         flex-shrink: 6;
-        padding: 0px;
+        padding: 5px;
     }
     .module {
         position: absolute;
@@ -438,6 +438,6 @@ body {
         margin-top: 50px;
     }
     iframe {
-        overflow: auto;
+        padding: 5px;
     }
 }
