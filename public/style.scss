@@ -346,12 +346,13 @@ body {
     }
     .giphy-embed {
         position: absolute;
-        height: auto;
-        width: auto;
+        height: 20vh;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-shrink: 6;
+        padding: 0px;
     }
     .module {
         position: absolute;
