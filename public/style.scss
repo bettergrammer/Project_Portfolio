@@ -347,10 +347,10 @@ body {
     .giphy-embed {
         position: absolute;
         height: 20vh;
-        width: 100%;
+        width: 20vw;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         flex-shrink: 6;
         padding: 5px;
     }
