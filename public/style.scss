@@ -361,7 +361,7 @@ body {
         background: rgb(233, 233, 233);
         height: 20vh;
         width: 80vw;
-        overflow: auto;
+        overflow: none;
         margin-left: 10vw;
         margin-bottom: 200px;
         border: 1px solid black;
@@ -394,9 +394,9 @@ body {
     }
     .project-info-wrapper {
         border: 1px solid burlywood;
-        height: 150px;
+        height: 100px;
         width: 5%;
-        min-width: 220px;
+        min-width: 100px;
         margin-top: 10px;
         display: flex;
         flex-shrink: 3;
