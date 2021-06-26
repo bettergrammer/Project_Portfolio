@@ -99,7 +99,7 @@ body {
 .AppContainer .j-logo {
   background: url("./images/j-transparent.png");
   position: relative;
-  top: -80px;
+  top: -100px;
   left: -5%;
   height: 10vh;
   width: 10%;
@@ -107,6 +107,19 @@ body {
   background-position: center center;
   background-size: 40px;
   background-repeat: no-repeat;
+}
+
+.AppContainer .jason-pic {
+  background: url("./images/jason.png");
+  position: absolute;
+  top: 60px;
+  left: 1007.5%;
+  height: 90px;
+  width: 75px;
+  background-position: -6px -3px;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  border-radius: 100px;
 }
 
 .AppContainer .html5-logo {
@@ -197,19 +210,6 @@ body {
   background-position: center center;
   background-size: 210px;
   background-repeat: no-repeat;
-}
-
-.AppContainer .jason-pic {
-  background: url("./images/jason.jpg");
-  position: absolute;
-  top: 2px;
-  left: 1007.5%;
-  height: 90px;
-  width: 75px;
-  background-position: -6px -3px;
-  background-size: 120%;
-  background-repeat: no-repeat;
-  border-radius: 100px;
 }
 
 .AppContainer .content h2 {
@@ -515,12 +515,12 @@ body {
           align-items: center;
   padding: 10px;
   width: 50%;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   border-radius: 20px;
-  padding: 20px;
+  padding: 10px;
   margin: 5px;
-  margin-top: -50px;
+  margin-top: -75px;
 }
 
 .AppContainer .project-info-wrapper a {
