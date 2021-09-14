@@ -24,7 +24,7 @@ body {
 }
 
 .AppContainer #skew1 {
-  background: url("./images/heroBackground.jpg");
+  background: grey;
   background-size: cover;
   background-position: center center;
   z-index: 10;
@@ -55,7 +55,7 @@ body {
 }
 
 .AppContainer #skew5 {
-  background: url("./images/patternsBackground.jpg");
+  background: grey;
   background-size: cover;
   background-position: center center;
   z-index: 6;
@@ -266,9 +266,8 @@ body {
 
 .AppContainer #skew3 p {
   margin: 5px 0 0 160px;
-  color: #fff;
   width: 50%;
-  text-shadow: 1px 1px 3px black;
+  text-shadow: 2px 2px 5px white;
 }
 
 .AppContainer #skew3 h2 {
