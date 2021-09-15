@@ -15,7 +15,7 @@ const names = {
 };
 
 const sources = {
-    'reset': 'https://github.com/bettergrammer/rpt19-mvp-starter',
+    'reset': 'https://github.com/jasonwiesner/meditation_app_reset',
     'theSuccessFactory': 'https://github.com/jasonwiesner/TheSuccessFactory',
     'cryptoCurrencyChartingTool': 'https://github.com/jasonwiesner/BCC',
     'roomShare2.0': 'https://github.com/jasonwiesner/roomshare_2.0'
