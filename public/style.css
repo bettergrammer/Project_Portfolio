@@ -260,21 +260,22 @@ body {
 
 .AppContainer #skew3 h3 {
   color: lightgrey;
-  font-size: 32.5px;
-  margin-top: 10px;
+  font-size: 45px;
+  margin: 10px 0 10px 50px;
+  width: 90%;
 }
 
 .AppContainer #skew3 p {
   color: white;
-  margin: 50px 0 0 -100px;
-  width: 70%;
-  font-size: 30px;
+  margin: 25px 0 0 -180px;
+  width: 80%;
+  font-size: 32.5px;
 }
 
 .AppContainer #skew3 h2 {
   color: lightgrey;
   padding-top: 40px;
-  margin: 50px 50px 0 0;
+  margin: 40px 50px 0 0;
   text-shadow: 1px 1px 1px black;
   font-size: 32.5px;
 }
