@@ -28,7 +28,7 @@ body {
         height: 800px;
     }
     #skew3 {
-        background: url('./images/shapesBackground.jpg');
+        background: black;
         background-size: cover;
         background-position: 0px -500px;
         z-index: 8;
@@ -221,22 +221,25 @@ body {
         margin-top: -40px;
     }
     #skew3 h3 {
-        padding-left: 210px;
-        font-size: 30px;
-        margin-top: -10px;
+        color: grey;
+        font-size: 32.5px;
+        margin-top: 10px;
+        padding-bottom: 30px;
     }
     #skew3 p {
-        margin: 5px 0 0 160px;
+        color: white;
         width: 50%;
-        text-shadow: 2px 2px 5px white;
+        font-size: 27.5px;
     }
     #skew3 h2 {
-        margin: 17% 0 0 200px;
+        color: grey;
+        padding-top: 40px;
+        margin: 50px 50px 0 0;
         text-shadow: 1px 1px 1px black;
-        font-size: 50px
+        font-size: 30px
     }
     #skew3 ul {
-        margin: 15px 0 0 100px;
+        margin: 25px 80px 0 0;
         list-style: none;
         font-size: 50px;
         color: white;
