@@ -259,24 +259,24 @@ body {
 }
 
 .AppContainer #skew3 h3 {
-  color: grey;
+  color: lightgrey;
   font-size: 32.5px;
   margin-top: 10px;
-  padding-bottom: 30px;
 }
 
 .AppContainer #skew3 p {
   color: white;
-  width: 50%;
-  font-size: 27.5px;
+  margin: 50px 0 0 -100px;
+  width: 70%;
+  font-size: 30px;
 }
 
 .AppContainer #skew3 h2 {
-  color: grey;
+  color: lightgrey;
   padding-top: 40px;
   margin: 50px 50px 0 0;
   text-shadow: 1px 1px 1px black;
-  font-size: 30px;
+  font-size: 32.5px;
 }
 
 .AppContainer #skew3 ul {
