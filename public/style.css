@@ -590,4 +590,10 @@ body {
   left: 0px;
   bottom: 0px;
 }
+
+@media only screen and (max-width: 1300px) {
+  #skew2 p {
+    margin: -25px 65px 0 -95px !important;
+  }
+}
 /*# sourceMappingURL=style.css.map */
