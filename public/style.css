@@ -128,6 +128,7 @@ body {
   left: 300px;
   height: 200px;
   width: 15%;
+  bottom: 30px;
   background-size: auto;
   background-position: center center;
   background-size: 180px;
@@ -137,7 +138,7 @@ body {
 .AppContainer .javascript-logo {
   background: url("./images/javascript-logo.png");
   position: relative;
-  bottom: 420px;
+  bottom: 500px;
   left: 42.5%;
   height: 200px;
   width: 15%;
@@ -151,7 +152,7 @@ body {
   background: url("./images/css3-logo.svg");
   position: absolute;
   right: 350px;
-  bottom: 420px;
+  bottom: 450px;
   height: 350px;
   width: 15%;
   background-size: auto;
@@ -203,7 +204,7 @@ body {
   background: url("./images/sass-logo.svg");
   position: absolute;
   right: 18%;
-  bottom: 0;
+  bottom: -55px;
   height: 350px;
   width: 18%;
   background-size: auto;
@@ -249,9 +250,24 @@ body {
   font-size: 20px;
 }
 
+.AppContainer #skew2 h3 {
+  margin-top: -5px;
+}
+
 .AppContainer #skew2 p {
+  position: absolute;
   color: #fff;
-  margin-bottom: 35px;
+  margin: -25px 65px 0 -70px;
+  font-size: 37.5px;
+  width: 60%;
+}
+
+.AppContainer #skew2 .fake-p {
+  position: relative;
+  visibility: hidden;
+  color: #fff;
+  margin-bottom: 160px;
+  font-size: 25px;
 }
 
 .AppContainer #skew2 {

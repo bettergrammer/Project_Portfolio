@@ -12,6 +12,7 @@ export default function Skew2() {
                     <p>
                         Ambitious software engineer devoted to creating outstanding user experiences across the MERN stack that serve others at the highest level. I specialize in Javascript & React/Redux.
                     </p>
+                    <div className="fake-p">Ambitious software engineer devoted to creating outstanding user experiences across the MERN stack that serve others at the highest level. I specialize in Javascript & React/Redux.</div>
                     <div className="javascript-logo"></div>
                     <div className="react-logo"></div>
                     <div className="node-logo"></div>
