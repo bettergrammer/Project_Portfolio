@@ -351,6 +351,7 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   -webkit-box-shadow: 5px 5px 0 black;
           box-shadow: 5px 5px 0 black;
+  border-radius: 5px;
   padding-bottom: 20px;
   margin: 0 20px;
   -webkit-transition: all 750ms ease-out;
@@ -368,13 +369,14 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  color: black;
+  color: white;
   font-size: 20px;
   -ms-flex-item-align: center;
       align-self: center;
-  background: burlywood;
+  background: green;
   z-index: 6;
   height: 80px;
+  border-radius: 2.5px;
 }
 
 .AppContainer .project-card-container p {
@@ -592,7 +594,19 @@ body {
 }
 
 @media only screen and (max-width: 1300px) {
-  #skew2 p {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 15px 0 0 20px;
+  }
+  body .AppContainer {
+    width: 94vw;
+  }
+  body .AppContainer #skew2 p {
     margin: -25px 65px 0 -95px !important;
   }
 }

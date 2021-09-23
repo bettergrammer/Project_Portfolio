@@ -291,6 +291,7 @@ body {
         overflow: noscroll;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         box-shadow: 5px 5px 0 black;
+        border-radius: 5px;
         padding-bottom: 20px;
         margin: 0 20px;
         transition: all 750ms ease-out;
@@ -299,12 +300,13 @@ body {
             align-items: center;
             justify-content: center;
             position: relative;
-            color: black;
+            color: white;
             font-size: 20px;
             align-self: center;
-            background:burlywood;
+            background:green;
             z-index: 6;
             height: 80px;
+            border-radius: 2.5px;
         }
         p {
             padding: 7px;
@@ -456,7 +458,16 @@ body {
 }
 
 @media only screen and (max-width: 1300px) {
-    #skew2 p {
-        margin: -25px 65px 0 -95px !important;
+    body {
+        display: flex;
+        justify-content: center;
+        margin: 15px 0 0 20px;       
+        .AppContainer {
+            width: 94vw;
+
+            #skew2 p {
+                margin: -25px 65px 0 -95px !important;
+            }
+        }
     }
   }
