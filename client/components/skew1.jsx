@@ -4,7 +4,7 @@ export default function Skew1() {
     return (
         <div className="wrapper">
             <div id="skew1" className="cus-div">
-                <div className="content">
+                <div className="content">    
                     <div className="j-logo">
                         <div className="jason-pic"></div>
                     </div>

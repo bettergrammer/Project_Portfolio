@@ -26,6 +26,18 @@ body {
         background: #c2c2c2;
         z-index: 9;
         height: 800px;
+        .coding-background-image-2 {
+            background: url('./images/design_background.png');
+            position: absolute;
+            top: 40px;
+            left: 0px;
+            height: 120vh;
+            width: 100%;
+            background-position: -520px -120px;
+            background-size: 1937.5px;
+            background-repeat: no-repeat;
+            opacity: 0.05;
+        }
     }
     #skew3 {
         background: black;
@@ -33,6 +45,19 @@ body {
         background-position: 0px -500px;
         z-index: 8;
         height: 700px;
+        .coding-background-image {
+            background: url('./images/coding_background.png');
+            position: absolute;
+            top: -20px;
+            left: -12.5%;
+            height: 95vh;
+            width: 112.5%;
+            background-size: auto;
+            background-position: 500px 175px;
+            background-size: 1250px;
+            background-repeat: no-repeat;
+            opacity: 0.2;
+        }
     }
     #skew4 {
         background: #c2c2c2;
@@ -468,6 +493,31 @@ body {
             #skew2 p {
                 margin: -25px 65px 0 -95px !important;
             }
+        }
+        .coding-background-image-2 {
+            background: url('./images/design_background.png');
+            position: absolute;
+            top: 40px;
+            left: 0px;
+            height: 810px !important;
+            width: 100%;
+            background-size: 137.5px;
+            background-repeat: no-repeat;
+            opacity: 0.05 !important;
+        }
+        .coding-background-image {
+            background: url('./images/coding_background.png');
+            position: absolute;
+            top: -20px;
+            left: -12.5%;
+            height: 95vh;
+            width: 112.5%;
+            background-size: auto;
+            background-position: 500px 175px;
+            background-size: 1250px;
+            background-repeat: no-repeat;
+            opacity: 0.05;
+            margin-top: -290px;
         }
     }
   }

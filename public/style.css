@@ -38,12 +38,39 @@ body {
   height: 800px;
 }
 
+.AppContainer #skew2 .coding-background-image-2 {
+  background: url("./images/design_background.png");
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  height: 120vh;
+  width: 100%;
+  background-position: -520px -120px;
+  background-size: 1937.5px;
+  background-repeat: no-repeat;
+  opacity: 0.05;
+}
+
 .AppContainer #skew3 {
   background: black;
   background-size: cover;
   background-position: 0px -500px;
   z-index: 8;
   height: 700px;
+}
+
+.AppContainer #skew3 .coding-background-image {
+  background: url("./images/coding_background.png");
+  position: absolute;
+  top: -20px;
+  left: -12.5%;
+  height: 95vh;
+  width: 112.5%;
+  background-size: auto;
+  background-position: 500px 175px;
+  background-size: 1250px;
+  background-repeat: no-repeat;
+  opacity: 0.2;
 }
 
 .AppContainer #skew4 {
@@ -608,6 +635,31 @@ body {
   }
   body .AppContainer #skew2 p {
     margin: -25px 65px 0 -95px !important;
+  }
+  body .coding-background-image-2 {
+    background: url("./images/design_background.png");
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    height: 810px !important;
+    width: 100%;
+    background-size: 137.5px;
+    background-repeat: no-repeat;
+    opacity: 0.05 !important;
+  }
+  body .coding-background-image {
+    background: url("./images/coding_background.png");
+    position: absolute;
+    top: -20px;
+    left: -12.5%;
+    height: 95vh;
+    width: 112.5%;
+    background-size: auto;
+    background-position: 500px 175px;
+    background-size: 1250px;
+    background-repeat: no-repeat;
+    opacity: 0.05;
+    margin-top: -290px;
   }
 }
 /*# sourceMappingURL=style.css.map */
