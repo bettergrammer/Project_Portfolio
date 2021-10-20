@@ -48,7 +48,7 @@ body {
   background-position: -520px -120px;
   background-size: 1937.5px;
   background-repeat: no-repeat;
-  opacity: 0.04;
+  opacity: 0.125;
 }
 
 .AppContainer #skew3 {
@@ -64,13 +64,13 @@ body {
   position: absolute;
   top: -20px;
   left: -12.5%;
-  height: 105vh;
+  height: 98.5vh;
   width: 112.5%;
   background-size: auto;
   background-position: 500px 175px;
   background-size: 1250px;
   background-repeat: no-repeat;
-  opacity: 0.15;
+  opacity: 0.2;
 }
 
 .AppContainer #skew4 {
@@ -645,7 +645,7 @@ body {
     width: 100%;
     background-size: 137.5px;
     background-repeat: no-repeat;
-    opacity: 0.05 !important;
+    opacity: 0.125 !important;
   }
   body .coding-background-image {
     background: url("./images/coding_background.png");
@@ -658,7 +658,7 @@ body {
     background-position: 500px 175px;
     background-size: 1250px;
     background-repeat: no-repeat;
-    opacity: 0.05;
+    opacity: 0.2;
     margin-top: -290px;
   }
 }
