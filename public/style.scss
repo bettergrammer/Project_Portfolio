@@ -31,12 +31,14 @@ body {
             position: absolute;
             top: 40px;
             left: 0px;
-            height: 111vh;
+            height: 112.5vh;
             width: 100%;
-            background-position: -520px -120px;
-            background-size: 1937.5px;
-            background-repeat: no-repeat;
-            opacity: 0.125;
+            background-position: -380px 0px;
+            background-repeat: repeat;
+            opacity: 0.1;
+            background-size: cover;
+            transform-origin: left bottom;
+            transform: skewY(3deg);
         }
     }
     #skew3 {
@@ -50,13 +52,16 @@ body {
             position: absolute;
             top: -20px;
             left: -12.5%;
-            height: 98.5vh;
+            height: 111.5vh;
             width: 112.5%;
-            background-size: auto;
-            background-position: 500px 175px;
+            background-position: 500px 251px;
             background-size: 1250px;
             background-repeat: no-repeat;
-            opacity: 0.2;
+            opacity: 0.175;
+            transform-origin: left bottom;
+            transform: skewY(-3deg);
+            margin-bottom: -1000px;
+            padding-bottom: -1000px;
         }
     }
     #skew4 {
@@ -489,7 +494,7 @@ body {
         margin: 15px 0 0 20px;       
         .AppContainer {
             width: 94vw;
-
+            margin-bottom: 0;
             #skew2 p {
                 margin: -25px 65px 0 -95px !important;
             }
@@ -503,21 +508,21 @@ body {
             width: 100%;
             background-size: 137.5px;
             background-repeat: no-repeat;
-            opacity: 0.125 !important;
+            opacity: 0.1 !important;
         }
         .coding-background-image {
             background: url('./images/coding_background.png');
             position: absolute;
             top: -20px;
             left: -12.5%;
-            height: 95vh;
+            height: 95vh !important;
             width: 112.5%;
             background-size: auto;
             background-position: 500px 175px;
             background-size: 1250px;
             background-repeat: no-repeat;
-            opacity: 0.2;
+            opacity: 0.175;
             margin-top: -290px;
         }
     }
-  }
+}
