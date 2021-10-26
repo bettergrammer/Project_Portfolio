@@ -70,7 +70,7 @@ body {
   left: -12.5%;
   height: 111.5vh;
   width: 112.5%;
-  background-position: 500px 175px;
+  background-position: 500px 75px;
   background-size: 1250px;
   background-repeat: no-repeat;
   opacity: 0.175;
@@ -660,11 +660,11 @@ body {
   body .coding-background-image {
     background: url("./images/coding_background.png");
     position: absolute;
-    top: 160px !important;
+    top: 160px;
     left: -12.5%;
-    height: 42.5vh !important;
+    height: 95vh !important;
     width: 112.5%;
-    background-size: auto;
+    background-size: auto 50% !important;
     background-position: 500px 175px;
     background-size: 1250px;
     background-repeat: no-repeat;
