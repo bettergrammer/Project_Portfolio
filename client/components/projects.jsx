@@ -6,7 +6,7 @@ export default function Projects({ showModule }) {
         <div className="projects-container">
             <ProjectCard id={"card1"}
             title={"Reset"}
-            description={`Full-stack, dynamic, single-page React app that allows users to effortlessly set, track, and achieve their meditation goals through an intuitive front-end UI.`}
+            description={`Full-stack SPA that allows users to set & track their meditation goals through an intuitive front-end UI.`}
             techUsed={['HTML|CSS', 'React', 'Redux', 'SCSS', 'Node.js|Express', 'MySQL']}
             showModule={showModule}
             />
