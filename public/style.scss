@@ -31,11 +31,11 @@ body {
             position: absolute;
             top: 40px;
             left: 0px;
-            height: 112.5vh;
+            height: 122.5vh;
             width: 100%;
             background-position: -380px 0px;
             background-repeat: repeat;
-            opacity: 0.1;
+            opacity: 0.075;
             background-size: cover;
             transform-origin: left bottom;
             transform: skewY(3deg);
@@ -52,7 +52,7 @@ body {
             position: absolute;
             top: -20px;
             left: -12.5%;
-            height: 111.5vh;
+            height: 121.5vh;
             width: 112.5%;
             background-position: 500px 75px;
             background-size: 1250px;
@@ -487,11 +487,15 @@ body {
     }
 }
 
+.demo-button {
+    z-index: 100;
+}
+
 @media only screen and (max-width: 1300px) {
     body {
         display: flex;
         justify-content: center;
-        margin: 15px 0 0 20px;       
+        margin: 15px 0 0 20px;
         .AppContainer {
             width: 94vw;
             margin-bottom: 0;
@@ -513,11 +517,11 @@ body {
         .coding-background-image {
             background: url('./images/coding_background.png');
             position: absolute;
-            top: 160px !important;
+            top: 160px;
             left: -12.5%;
-            height: 42.5vh !important;
+            height: 77.5vh !important;
             width: 112.5%;
-            background-size: auto;
+            background-size: auto 50% !important;
             background-position: 500px 175px;
             background-size: 1250px;
             background-repeat: no-repeat;

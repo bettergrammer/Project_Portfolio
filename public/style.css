@@ -43,11 +43,11 @@ body {
   position: absolute;
   top: 40px;
   left: 0px;
-  height: 112.5vh;
+  height: 122.5vh;
   width: 100%;
   background-position: -380px 0px;
   background-repeat: repeat;
-  opacity: 0.1;
+  opacity: 0.075;
   background-size: cover;
   -webkit-transform-origin: left bottom;
           transform-origin: left bottom;
@@ -68,7 +68,7 @@ body {
   position: absolute;
   top: -20px;
   left: -12.5%;
-  height: 111.5vh;
+  height: 121.5vh;
   width: 112.5%;
   background-position: 500px 75px;
   background-size: 1250px;
@@ -629,6 +629,10 @@ body {
   bottom: 0px;
 }
 
+.demo-button {
+  z-index: 100;
+}
+
 @media only screen and (max-width: 1300px) {
   body {
     display: -webkit-box;
@@ -662,7 +666,7 @@ body {
     position: absolute;
     top: 160px;
     left: -12.5%;
-    height: 95vh !important;
+    height: 77.5vh !important;
     width: 112.5%;
     background-size: auto 50% !important;
     background-position: 500px 175px;
