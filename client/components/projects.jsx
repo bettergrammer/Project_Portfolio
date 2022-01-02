@@ -24,7 +24,7 @@ export default function Projects({ showModule }) {
             />
             <ProjectCard id={"card4"}
             title={"The Success Factory"}
-            description={"Front end single-page application to help users adopt successful habits and rituals."}
+            description={"Front end single-page application that helps users adopt successful habits and rituals."}
             techUsed={['HTML|CSS', 'React', 'SCSS', 'Node.js|Express']}
             showModule={showModule}
             />
