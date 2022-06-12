@@ -1,5 +1,11 @@
 body {
   background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .AppContainer {
@@ -448,6 +454,7 @@ body {
   min-width: 45%;
   display: flex;
   font-size: 20px;
+  border: 1px solid grey;
   -webkit-box-shadow: 2.5px 2.5px 0 black;
           box-shadow: 2.5px 2.5px 0 black;
   border-radius: 15px;
@@ -549,7 +556,6 @@ body {
   -ms-flex-item-align: center;
       align-self: center;
   padding: 100px 25px;
-  background: #f1ca97;
   position: absolute;
   right: 0px;
   border-radius: 15px;
@@ -668,12 +674,21 @@ body {
     left: -12.5%;
     height: 77.5vh !important;
     width: 112.5%;
-    background-size: auto 60% !important;
+    background-size: auto 50% !important;
     background-position: 500px 175px;
     background-size: 1250px;
     background-repeat: no-repeat;
     opacity: 0.175;
     margin-top: -290px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .coding-background-image-2 {
+    height: 111vh !important;
+  }
+  .coding-background-image {
+    height: 110vh !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
